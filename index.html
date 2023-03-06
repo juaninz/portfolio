@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Juan Nuñez</title>
 </head>
 
@@ -23,7 +24,7 @@
             <input id="menu-toggle" type="checkbox" />
 
             <ul class="navbar-list">
-                <li><a href="#hero" class="about-link">Sobre mi</a></li>
+                <li><a href="#cv" class="about-link">Sobre mi</a></li>
                 <li><a href="#proyectos">Proyectos</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
@@ -49,7 +50,7 @@
                 <img src="./assets/img/foto.jpg" alt="Mi foto" />
             </div>
         </section>
-        <section id="cv">
+        <section id="cv" data-aos="fade-up">
             <div class="cv-item">
                 <h2>Datos Personales</h2>
                 <div class="dato">
@@ -89,26 +90,88 @@
                     <li>Tableau</li>
                     <li>Python</li>
                     <li>R</li>
+                    <li>Git/Github</li>
+                    <li>Estadísticas</li>
+                    <li>Análisis Matemático</li>
                 </ul>
             </div>
         </section>
+        <section id="experiencias" data-aos="zoom-in" data-aos-duration="3000">
+            <h2>Experiencia</h2>
+            <div class="experiencia" data-aos="fade-left" data-aos-duration="3000">
+                <h3>Dirección Estudios y Proyectos - UNNE (2021-2022) </h3>
+                <p>Elaboración de pliegos para licitaciones de obras / Elaboración de presupuestos y Análisis de
+                    Costos / Cálculo Estructural / Curvas de Inversión y Seguimiento de Obras.</p>
+            </div>
+            <div class="experiencia" data-aos="fade-left" data-aos-duration="3000">
+                <h3>EIH SA - (2019-2020)</h3>
+                <p>Preparación de documentación para licitaciones nacionales e internacionales del BID y el Banco
+                    Mundial (propuestas técnicas y económicas)/ Búsqueda de proveedores y estudio de precios/
+                    Análisis de datos meteorológicos (vientos, precipitaciones, niveles de ríos y mareas)/
+                    Elaboración de memorias descriptivas y de cálculo/ Diseño y ensayo de dispositivos de medición
+                    de parámetros meteorológicos.</p>
+            </div>
+            <div class="experiencia" data-aos="fade-left" data-aos-duration="3000">
+                <h3>Adminitración Provincial del Agua (2018)</h3>
+                <p>Participación en anteproyectos de desagües cloacales y pluviales/ Relevamientos en campo
+                    /Confección y revisión de planos/ Redacción de memorias descriptivas, de cálculo y
+                    especificaciones técnicas/ Evaluación económica de proyectos de ingeniería sanitaria</p>
+            </div>
+        </section>
+        <section id="software">
+            <h2>Herramientas Informáticas</h2>
+            <div class="herramientas" data-aos="fade-right" data-aos-duration="2000">
+                <img src="./assets/img/Herramientas/excel.png" alt="" id="excel">
+                <img src="./assets/img/Herramientas/powerbi.jpg" alt="" id="powerbi">
+                <img src="./assets/img/Herramientas/tableau.png" alt="" id="tableau">
+                <img src="./assets/img/Herramientas/looker.png" alt="" id="looker">
+                <img src="./assets/img/Herramientas/PYTHON.png" alt="python" id="python">
+                <img src="./assets/img/Herramientas/R.png" alt="" id="r">
+                <img src="./assets/img/Herramientas/mysql.png" alt="" id="mysql">
+            </div>
+        </section>
         <section id="proyectos">
-            <h2>Proyectos Personales</h2>
+            <h2 data-aos="fade-up">Proyectos Personales</h2>
             <div class="proyectos-list">
-                <div class="proyecto">
-                    <img src="./assets/img/gamesales.png" alt="">
+                <div class="proyecto" data-aos="fade-up">
+                    <img src="./assets/img/proyectos/gamesales.png" alt="">
                     <h3>Ventas de Videojuegos</h3>
                     <p>Herramientas usadas: Power BI</p>
+                    <a
+                        href="https://drive.google.com/drive/folders/17lIL5RXpLY1QRs0czQrqbT-HLBFPwGYM?usp=share_link">Ver</a>
                 </div>
-                <div class="proyecto">
-                    <img src="./assets/img/premier.png" alt="">
+                <div class="proyecto" data-aos="fade-up">
+                    <img src="./assets/img/proyectos/premier.png" alt="">
                     <h3>Datos Premier League 2019/2020</h3>
                     <p>Herramientas usadas: Tableau</p>
+                    <a
+                        href="https://public.tableau.com/app/profile/juan.ignacio2407/viz/EntregaFinalNuez/Dashboard1?publish=yes">Ver</a>
                 </div>
-                <div class="proyecto">
-                    <img src="./assets/img/supersales.jpg" alt="">
+                <div class="proyecto" data-aos="fade-up">
+                    <img src="./assets/img/proyectos/supersales.jpg" alt="">
                     <h3>Ventas Línea de Supermercados</h3>
                     <p>Herramientas usadas: Looker Studio</p>
+                    <a
+                        href="https://drive.google.com/drive/folders/1hKrLitMh0dYac140f9h8FJgdApqmZLNX?usp=share_link">Ver</a>
+                </div>
+                <div class="proyecto" data-aos="fade-up">
+                    <img src="./assets/img/proyectos/camion.jpeg" alt="">
+                    <h3>Análisis Presupuesto Empresa de Transporte</h3>
+                    <p>Herramientas usadas: Power BI</p>
+                    <a href="#">Ver</a>
+                </div data-aos="fade-up">
+                <div class="proyecto" data-aos="fade-up">
+                    <img src="./assets/img/proyectos/titanic.jpg" alt="">
+                    <h3>Modelo de predicción sobrevivientes Titanic</h3>
+                    <p>Herramientas usadas: Python</p>
+                    <a href="#">Ver</a>
+                </div>
+                <div class="proyecto" data-aos="fade-up">
+                    <img src="./assets/img/proyectos/autos.jpg" alt="">
+                    <h3>Análisis Estadísitico Ventas de Autos</h3>
+                    <p>Herramientas usadas: R</p>
+                    <a
+                        href="https://drive.google.com/drive/folders/1CsOLcABQw9YJ0tH1J_giUnAVM9ejWZng?usp=sharing">Ver</a>
                 </div>
             </div>
         </section>
@@ -128,6 +191,10 @@
             <p><span>Linkedin:</span> https://www.linkedin.com/in/juan-ign-nunez/</p>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
