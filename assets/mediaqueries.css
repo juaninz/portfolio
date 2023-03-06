@@ -1,0 +1,80 @@
+@media (max-width: 992px) {
+    header {
+        justify-content: flex-end;
+    }
+
+    .navbar-list {
+        position: absolute;
+        top: 65px;
+        left: 5%;
+        right: 5%;
+        width: 90%;
+        flex-direction: column;
+        background-color: var(--nav-bg);
+        border: 2px solid var(--electric);
+        border-top: 0px;
+        border-radius: 0px 0px 15px 15px;
+        align-items: flex-start;
+        padding: 45px 30px;
+        gap: 25px;
+        z-index: 2;
+        display: none;
+    }
+
+    #menu-toggle:checked+.navbar-list {
+        display: flex;
+    }
+
+    .navbar-list a {
+        font-size: 18px;
+        border: none;
+    }
+
+    .menu-label {
+        display: flex;
+        cursor: pointer;
+    }
+
+    .navbar-list li:hover{
+        background-color: unset;
+    }
+    
+    .navbar-list a:hover{
+        color: unset;
+    }
+
+    /*hero*/
+    #hero{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .hero-info {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .hero-info h1 {
+        width: 90%;
+        max-width: 500px;
+        min-width: unset;
+    }
+
+    .hero-info p {
+        width: 60%;
+        max-width: 600px;
+    }
+
+    .proyectos-list{
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+    }
+
+    .proyecto{
+        width: 80%;
+    }
+
+}
