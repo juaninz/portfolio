@@ -2,8 +2,8 @@
 
 :root {
     /* bg colors */
-  --background: #02050e;
-  --primary: #1e50ff;
+  --negro: #02050e;
+  --azul: #1e50ff;
   --secondary: #272d37;
   --btn-bg: #050d26;
   --bg-azul-10: #e9eeff;
@@ -30,7 +30,7 @@
 
 /*header*/
 header {
-    background: linear-gradient(to bottom, #34487c, var(--background));
+    background: linear-gradient(to bottom, #34487c, var(--negro));
     width: 100%;
     display: flex;
     justify-content: center;
@@ -79,7 +79,7 @@ ul {
 
 /*main*/
 main {
-    background: var(--background);
+    background: var(--negro);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -132,7 +132,7 @@ main {
 
 .hero-info a {
     color: var(--text-white);
-    background-color: var(--primary);
+    background-color: var(--azul);
     width: 120px;
     padding: 8px 0px;
     border-radius: 10px;
@@ -362,7 +362,7 @@ main {
 
 .proyecto a{
     color: var(--text-white);
-    background-color: var(--primary);
+    background-color: var(--azul);
     width: 120px;
     padding: 8px 0px;
     border-radius: 10px;
