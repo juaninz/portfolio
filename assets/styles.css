@@ -216,6 +216,27 @@ main {
     color: var(--nav-bg);
 }
 
+/*idiomas*/
+
+#idiomas{
+    max-width: 1200px;
+    width: 80%;
+    background-color: var(--secondary);
+    margin: 30px;
+    padding: 30px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+#idiomas:hover{
+    background-color: var(--bg-azul-10);
+    color: var(--nav-bg);
+}
 
 /*Experiencias*/
 
